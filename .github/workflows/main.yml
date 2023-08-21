@@ -11,7 +11,7 @@ permissions: write-all
 
 jobs:
   build:
-    name: Creation of resume in en and pt-br
+    name: Creation of Curriculum Vitae
     runs-on: ubuntu-latest
     container:
       image: mlampros/mycvitae:rstudiodev
@@ -27,7 +27,7 @@ jobs:
           sudo apt-get install -y texlive-xetex
           sudo apt-get install -y texlive-fonts-extra
 
-      - name: Render the resumes
+      - name: Render the Curriculum Vitae
         run: |
           Rscript -e "rmarkdown::render(input = file.path(getwd(), 'cv-data-driven.Rmd'), params = list(work_dir = getwd()))"
       - name: Commit files
