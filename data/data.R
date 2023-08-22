@@ -22,6 +22,8 @@ edu <- tribble(
   ~degree, ~startYear, ~endYear, ~inst, ~where, ~detail,
   "Bacharelado em Ci??ncia da Computa????o", 2015, 2019, "Universidade Imagin??ria", "Cidade Fict??cia, Estado Fict??cio, Pa??s Fict??cio", "Estudos em algoritmos, estruturas de dados e programa????o orientada a objetos.",
   "Mestrado em Engenharia de Software", 2020, 2022, "Universidade Fict??cia", "Cidade Fict??cia, Estado Fict??cio, Pa??s Fict??cio", "Pesquisa em desenvolvimento de software, foco em metodologias ??geis e arquiteturas escal??veis.",
+  "Bacharelado em Ci??ncia da Computa????o", 2015, 2019, "Universidade Imagin??ria", "Cidade Fict??cia, Estado Fict??cio, Pa??s Fict??cio", "Estudos em algoritmos, estruturas de dados e programa????o orientada a objetos.",
+  "Tecnologia em Processamento de Dados", 1999, 2001, "FAI - Fac. Adamantinenses Integradas", "Adamantina, SP, Brasil", "Pesquisa em desenvolvimento de software, foco em metodologias ??geis e arquiteturas escal??veis.",
 )
 
 work <- tribble(
