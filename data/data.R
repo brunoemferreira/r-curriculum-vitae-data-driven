@@ -21,7 +21,7 @@ skills <- tribble(
 edu <- tribble(
   ~degree, ~startYear, ~endYear, ~inst, ~where, ~detail,
   "Pós Graduação em Desenvolvimento Full Stack", 2023, 2024, "Descomplica Faculdade Digital", "Rio de Janeiro, RJ, Brasil", "Estudos em algoritmos, estruturas de dados e programa????o orientada a objetos.",
-  "Mestrado em Engenharia de Software", 2019, 2020, "Faculdade VINCIT", "Maringá, PR, Brasil", "Pesquisa em desenvolvimento de software, foco em metodologias ??geis e arquiteturas escal??veis.",
+  "Pós Graduação em Desenvolvimento Orientado a Objetos em Java", 2019, 2020, "Faculdade VINCIT", "Maringá, PR, Brasil", "Pesquisa em desenvolvimento de software, foco em metodologias ??geis e arquiteturas escal??veis.",
   "Pós Graduação em Arquitetura de Soluções em Plataforma.Net (C#)", 2018, 2019, "Faculdade VINCIT", "Maringá, PR, Brasil", "Estudos em algoritmos, estruturas de dados e programa????o orientada a objetos.",
   "Tecnologia em Processamento de Dados", 1999, 2001, "FAI - Fac. Adamantinenses Integradas", "Adamantina, SP, Brasil", "Pesquisa em desenvolvimento de software, foco em metodologias ??geis e arquiteturas escal??veis.",
 )
